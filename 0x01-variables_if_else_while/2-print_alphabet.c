@@ -8,7 +8,7 @@
 
 int main(void)
 {
-	char alp[27] = "abcdefghijklmnopqrstuvwxyz";
+	char i;
 	int i;
 
 	for (i = 'a'; i <= 27; i++)
