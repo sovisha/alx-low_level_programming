@@ -1,18 +1,19 @@
 #include <stdio.h>
 
 /**
- * Prints alphabet in lowewrcase
+ * main - Prints alphabet in lowewrcase
  *
  * Return: Always 0 (Success)
  */
+
 int main(void)
 {
 	char alp[27] = "abcdefghijklmnopqrstuvwxyz";
 	int i;
 
-	for (i = 0; i < 27; i++)
+	for (i = 'a'; i <= 27; i++)
 
-		putchar(alp[i]);
+		putchar(i);
 
 	putchar('\n');
 	return (0);
