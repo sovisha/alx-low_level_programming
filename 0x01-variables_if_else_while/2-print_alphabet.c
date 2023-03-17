@@ -9,7 +9,6 @@
 int main(void)
 {
 	char i;
-	int i;
 
 	for (i = 'a'; i <= 27; i++)
 
