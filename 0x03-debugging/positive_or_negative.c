@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * positive_or_negative - checks for positive or negative numbers
@@ -13,4 +14,5 @@ void positive_or_negative(int i)
 		printf("%d is negative", i);
 	else
 		printf("%d is positive", i);
+	putchar('\n');
 }
